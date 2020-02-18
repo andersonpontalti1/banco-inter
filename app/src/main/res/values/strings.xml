@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="banco">Banco Inter</string>
+    <string name="txt_login">Login</string>
+    <string name="cnpj_cpf">CPF/CNPJ *</string>
+    <string name="senha">Senha *</string>
+    <string name="login">Login</string>
+    <string name="txt_password">Esqueci minha Senha</string>
+    <string name="txt_home">Bem-vindo(a)! </string>
+    <string name="txt_homedigita">Para abrir sua conta digital no banco inter, o primeiro passo é informar o seu CPF:</string>
+    <string name="txt_Enter">Entrar</string>
+    <string name="txt_CPF">CPF</string>
+    <string name="campo_password">Campo senha</string>
+    <string name="viewLogin">Login</string>
+    <string name="txt_cpf_cnpj">Campo CPF/CNPJ</string>
+    <string name="btn_login">Botao Login</string>
+    <string name="campo_esqueci_senha">Esqueci minha senha</string>
+    <string name="txt_bem_vindo">Bem vindo</string>
+    <string name="txt_abrir_conta">Para abrir sua conta digital no banco inter, o primeiro passo é informar o seu CPF</string>
+    <string name="campo_cpf">Campo CPF</string>
+    <string name="btn_entrar">Botao entrar</string>
+    <string name="img_Inter">Imagem Inter</string>
+
+
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_view"
+    tools:context=".Home">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="@dimen/margin281"
+        android:layout_height="@dimen/margin198"
+        android:layout_marginTop="@dimen/margin16"
+        android:focusable="true"
+        android:contentDescription="@string/img_Inter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/banco_inter" />
+
+    <TextView
+        android:id="@+id/txt_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin44"
+        android:paddingStart="@dimen/pd_90"
+        android:focusable="true"
+        android:contentDescription="@string/txt_bem_vindo"
+        android:text="@string/txt_home"
+        android:textSize="@dimen/txtsize30"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="@dimen/margin367"
+        android:layout_height="@dimen/margin109"
+        android:layout_marginTop="@dimen/margin28"
+        android:paddingStart="8dp"
+        android:text="@string/txt_homedigita"
+        android:textSize="@dimen/txt_size25"
+        android:textStyle="bold"
+        android:focusable="true"
+        android:contentDescription="@string/txt_abrir_conta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_welcome"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/txt_cpf"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin50"
+        android:paddingStart="@dimen/txt_size20"
+        android:hint="@string/txt_CPF"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:focusable="true"
+        android:contentDescription="@string/campo_cpf"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.203"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/button_conta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:focusable="true"
+        android:contentDescription="@string/btn_entrar"
+        android:text="@string/txt_Enter"
+        android:textColor="@color/colorButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_cpf" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
