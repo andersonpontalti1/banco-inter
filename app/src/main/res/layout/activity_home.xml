@@ -74,7 +74,7 @@
         android:id="@+id/button_conta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
+        android:background="@drawable/background_btnorange"
         android:focusable="true"
         android:contentDescription="@string/btn_entrar"
         android:text="@string/txt_Enter"
